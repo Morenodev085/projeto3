@@ -1,0 +1,59 @@
+        /* Estilos CSS adicionais para o carousel responsivo */
+        #carousel-primario {
+            max-height: 400px; /* Altura máxima do carousel */
+            overflow: hidden; /* Esconder partes das imagens que ultrapassem a altura */
+        }
+        .carousel-inner .carousel-item img {
+            height: 100%; /* Garantir que as imagens ocupem toda a altura do carousel */
+            object-fit: cover; /* Manter proporção da imagem e cortar o excesso */
+        }
+        h1,
+        h2 {
+            font-family: "Playwrite HR", cursive;
+        }
+
+        h3,
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            background-color: rgb(36, 22, 88); /* Cor de fundo da navbar */
+            color: #ccc; /* Cor do texto da navbar */
+        }
+
+        .navbar .navbar-brand {
+            color: #ccc; /* Cor do texto do brand (logo) */
+        }
+
+        .navbar .nav-link {
+            color: #ccc; /* Cor do texto dos links */
+        }
+
+        .navbar .nav-link:hover {
+            color: #fff; /* Cor do texto dos links ao passar o mouse */
+        }
+        
+        #formularioDeInteresse
+        {
+            background-color: rgb(36, 22, 88);
+        }
+        #enviar-formulario{
+            background-color:  rgb(36, 22, 88);
+        }
+
+        #titulo-formulario{
+            color: #ccc;
+        }
+
+        .social-links li{
+            list-style: none;
+            display: inline;
+        }
+        .linkcor{
+            color: black;
+        }
+    footer{
+        background-color:  rgb(36, 22, 88);
+        color: #ccc;
+    }
